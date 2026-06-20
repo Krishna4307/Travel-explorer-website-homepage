@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(41, 41, 42);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.top h1{
+    font-size: 22px;
+    flex:0.9;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    gap: 50px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 48, 48);
+    padding-left: 50px;
+    height: 350px;
+    justify-content: center;
+    background-image: url("images/tavel-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.hero h2{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 0px;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+.hero p{
+    width: 350px;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+.hero button{
+    font-size: 22px;
+    color: white;
+    background-color: rgb(87, 141, 6);
+    margin-bottom: 0px;
+    width: 175px;
+    border-radius: 3px;
+    padding: 8px;
+    border: none;
+}
+.popular{
+    font-size:35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.places{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-items: center;
+    padding: 5px;
+    box-shadow: 5px 5px 2px white;
+}
+.places div img{
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.places div{
+    background-color: rgba(252, 245, 245, 0.999);
+    border-radius: 5px;
+}
+.places div h3{
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.places div p{
+    margin-top: 5px;
+    padding-left: 25px;
+}
+.why{
+    margin-top: 50px;
+    background-color: rgb(241, 240, 240);
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    justify-content: center;
+}
+.why h2{
+    font-size: 25px;
+    margin-left: 450px;
+    margin-bottom: 0px;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    margin-top: 0px;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgb(55, 55, 54);
+    color: white;
+    justify-items: center;
+}
+.footer-section h2{
+    font-size: 22px;
+}
+.footer-section p{
+    font-size: 16px;
+}
+.grid1 p{
+    width: 200px;
+}
+.grid1 img{
+    margin-top: 10px;
+    background-color: rgb(191, 190, 188);
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.copyright{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.copyright p{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
